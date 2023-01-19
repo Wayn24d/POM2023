@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="5" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-14T11:01:01Z" name="Opencart App Test Regression Suite" finished-at="2023-01-14T11:01:45Z" duration-ms="44420">
+    <groups>
+    </groups>
+    <test started-at="2023-01-14T11:01:01Z" name="Login Page Test" finished-at="2023-01-14T11:01:14Z" duration-ms="13205">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@32f0c7f8]" started-at="2023-01-14T11:01:02Z" name="setup" finished-at="2023-01-14T11:01:14Z" duration-ms="12243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginpageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@32f0c7f8]" started-at="2023-01-14T11:01:14Z" name="loginpageTitleTest" finished-at="2023-01-14T11:01:14Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@32f0c7f8]" started-at="2023-01-14T11:01:14Z" name="tearDown" finished-at="2023-01-14T11:01:14Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2023-01-14T11:01:01Z" name="My Account Page Test" finished-at="2023-01-14T11:01:15Z" duration-ms="14204">
+      <class name="com.qa.opencart.tests.MyAcountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.MyAcountPageTest@4c59e45e]" started-at="2023-01-14T11:01:01Z" name="setup" finished-at="2023-01-14T11:01:14Z" duration-ms="12600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="MyAcountPageSetup()[pri:0, instance:com.qa.opencart.tests.MyAcountPageTest@4c59e45e]" started-at="2023-01-14T11:01:14Z" name="MyAcountPageSetup" finished-at="2023-01-14T11:01:15Z" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAcountPageSetup -->
+        <test-method signature="MyAcountPageChechTitle()[pri:0, instance:com.qa.opencart.tests.MyAcountPageTest@4c59e45e]" started-at="2023-01-14T11:01:15Z" name="MyAcountPageChechTitle" finished-at="2023-01-14T11:01:15Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAcountPageChechTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.MyAcountPageTest@4c59e45e]" started-at="2023-01-14T11:01:15Z" name="tearDown" finished-at="2023-01-14T11:01:15Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.MyAcountPageTest -->
+    </test> <!-- My Account Page Test -->
+    <test started-at="2023-01-14T11:01:01Z" name="Register Page Test" finished-at="2023-01-14T11:01:45Z" duration-ms="44398">
+      <class name="com.qa.opencart.tests.RegisterPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:01Z" name="setup" finished-at="2023-01-14T11:01:14Z" duration-ms="13267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="RegisterPageSetup()[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:14Z" name="RegisterPageSetup" finished-at="2023-01-14T11:01:16Z" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPageSetup -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:17Z" name="createUserTest" data-provider="getExcelData" finished-at="2023-01-14T11:01:22Z" duration-ms="4865" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[steel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45125698241]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[steel123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: headless chrome=108.0.5359.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-7UIQ5ON', ip: '192.168.2.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc3860ed8d275827ac32b80b79a48fe, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Wayn\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10149/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc3860ed8d275827ac32b80b79a48fe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: headless chrome=108.0.5359.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-7UIQ5ON', ip: '192.168.2.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc3860ed8d275827ac32b80b79a48fe, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Wayn\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10149/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc3860ed8d275827ac32b80b79a48fe
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at com.qa.opencart.utils.ElementUtils.click(ElementUtils.java:168)
+at com.qa.opencart.pages.RegisterPage.navigateToRegisterPage(RegisterPage.java:116)
+at com.qa.opencart.tests.RegisterPageTest.createUserTest(RegisterPageTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:22Z" name="createUserTest" data-provider="getExcelData" finished-at="2023-01-14T11:01:27Z" duration-ms="4493" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[steel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45125698241]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[steel123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: headless chrome=108.0.5359.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-7UIQ5ON', ip: '192.168.2.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc3860ed8d275827ac32b80b79a48fe, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Wayn\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10149/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc3860ed8d275827ac32b80b79a48fe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: headless chrome=108.0.5359.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-7UIQ5ON', ip: '192.168.2.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cc3860ed8d275827ac32b80b79a48fe, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.126, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Wayn\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:10149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:10149/devtoo..., se:cdpVersion: 108.0.5359.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cc3860ed8d275827ac32b80b79a48fe
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at com.qa.opencart.utils.ElementUtils.click(ElementUtils.java:168)
+at com.qa.opencart.pages.RegisterPage.navigateToRegisterPage(RegisterPage.java:116)
+at com.qa.opencart.tests.RegisterPageTest.createUserTest(RegisterPageTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:27Z" name="createUserTest" data-provider="getExcelData" finished-at="2023-01-14T11:01:33Z" duration-ms="6327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[steel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45125698241]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[steel123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:33Z" name="createUserTest" data-provider="getExcelData" finished-at="2023-01-14T11:01:39Z" duration-ms="6007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[patrick]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bateman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23244864891]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bateman123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:39Z" name="createUserTest" data-provider="getExcelData" finished-at="2023-01-14T11:01:45Z" duration-ms="6117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[carter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24356389256]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[carter123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.RegisterPageTest@4aaae508]" started-at="2023-01-14T11:01:45Z" name="tearDown" finished-at="2023-01-14T11:01:45Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.RegisterPageTest -->
+    </test> <!-- Register Page Test -->
+  </suite> <!-- Opencart App Test Regression Suite -->
+</testng-results>
