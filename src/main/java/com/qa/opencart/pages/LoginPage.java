@@ -86,7 +86,7 @@ public class LoginPage {
 			public RegisterPage gotoRegestrition() 
 			{
 				eu.click(registerlink);
-				System.out.println("Entering into Registeration Page .....");
+				System.out.println("Entering to Registeration Page ..........");
 				return new RegisterPage(driver);
 			}
 	
